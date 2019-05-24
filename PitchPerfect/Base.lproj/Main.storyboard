@@ -32,29 +32,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86A-LW-bLq">
-                                <rect key="frame" x="172" y="565.5" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="VqL-zc-jmT"/>
-                                    <constraint firstAttribute="width" constant="70" id="aSC-8g-XxM"/>
-                                </constraints>
+                                <rect key="frame" x="129.5" y="565.5" width="155" height="155"/>
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yjl-GY-abT"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Kz-xu-c4s">
-                                <rect key="frame" x="-156" y="296" width="200" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YTI-M4-3mc" firstAttribute="centerX" secondItem="rcF-zK-Vai" secondAttribute="centerX" id="47g-Aq-xgv"/>
-                            <constraint firstItem="86A-LW-bLq" firstAttribute="centerX" secondItem="YTI-M4-3mc" secondAttribute="centerX" id="AaB-ge-8bl"/>
-                            <constraint firstItem="86A-LW-bLq" firstAttribute="top" secondItem="YTI-M4-3mc" secondAttribute="bottom" constant="8" id="GRy-Cv-Nao"/>
-                            <constraint firstItem="rcF-zK-Vai" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I7N-I8-hRB"/>
-                            <constraint firstItem="rcF-zK-Vai" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rlb-9a-hfe"/>
-                            <constraint firstItem="YTI-M4-3mc" firstAttribute="top" secondItem="rcF-zK-Vai" secondAttribute="bottom" constant="8" id="vJG-tc-6UL"/>
+                            <constraint firstItem="86A-LW-bLq" firstAttribute="top" secondItem="rcF-zK-Vai" secondAttribute="bottom" constant="40" id="3R6-Ev-Ngf"/>
+                            <constraint firstItem="86A-LW-bLq" firstAttribute="centerX" secondItem="rcF-zK-Vai" secondAttribute="centerX" id="7zl-dB-Xf3"/>
+                            <constraint firstItem="rcF-zK-Vai" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Er4-IU-7Iv"/>
+                            <constraint firstItem="rcF-zK-Vai" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fsd-eW-hdr"/>
+                            <constraint firstItem="YTI-M4-3mc" firstAttribute="centerX" secondItem="rcF-zK-Vai" secondAttribute="centerX" id="RL6-Xa-V53"/>
+                            <constraint firstItem="YTI-M4-3mc" firstAttribute="top" secondItem="rcF-zK-Vai" secondAttribute="bottom" constant="8" id="fUx-Kz-M7q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
